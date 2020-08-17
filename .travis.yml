@@ -1,0 +1,7 @@
+os: linux
+dist: focal
+compiler: clang
+language: cpp
+
+script:
+  - ./travis.sh
