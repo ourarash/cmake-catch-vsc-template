@@ -1,3 +1,11 @@
 {
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.systemIncludePath": [
+    "${default}",
+    "src/lib"
+  ],
+  "files.associations": {
+    "iosfwd": "cpp"
+  },
+
 }

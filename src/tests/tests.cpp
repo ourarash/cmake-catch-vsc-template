@@ -1,3 +1,5 @@
+#define CATCH_CONFIG_MAIN
+
 #include <vector>
 
 #include "catch.hpp"
@@ -13,5 +15,10 @@ TEST_CASE("FindMax") {
   SECTION("Should find max of consecutive numbers") {
     std::vector<int> inputs = {1, 2, 3, 4};
     REQUIRE(cpplib.FindMax(inputs) == 4);
+  }
+
+  SECTION("Should find max of consecutive numbers") {
+    std::vector<int> inputs = {1, 7, 3, 4};
+    REQUIRE(cpplib.FindMax(inputs) == 7);
   }
 }

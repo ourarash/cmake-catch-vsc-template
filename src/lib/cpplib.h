@@ -5,7 +5,7 @@
 #include <vector>
 
 /**
- *  Example class used for GTest demo
+ *  Example class
  */
 class CPPLib {
  public:
