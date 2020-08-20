@@ -25,7 +25,7 @@ You can install CMake using this [link](https://cmake.org/download/).
 
 ### Installing Toolchain
 
-CMake can detect and work with most toolchains. On Mac, you can install XCode. On Windows, you can use Visual Studio Code. On Linux, you can use gcc.
+CMake can detect and work with most toolchains. On Mac, you can install XCode. On Windows, you can use Visual Studio. On Linux, you can use gcc.
 
 ### Visual Studio Code Extensions
 If you are using [Visual Studio Code](https://code.visualstudio.com/), you need to install these extensions:
