@@ -1,7 +1,9 @@
 #include "cpplib.h"
 
+#include <iostream>
+
 #include "limits"
-std::string CPPLib::PrintHelloWorld() { return "**** Hello World ****"; }
+std::string CPPLib::GetGreetingMessage() { return "**** Hello World ****"; }
 
 // Calculates the Nth Fibonacci number
 int CPPLib::fib(int N) {
@@ -18,10 +20,23 @@ int CPPLib::fib(int N) {
 
 int CPPLib::FindMax(const std::vector<int> &inputs) {
   int result = std::numeric_limits<int>::min();
+
   for (auto n : inputs) {
     if (n > result) {
       result = n;
     }
   }
   return result;
+}
+
+template <class T>
+void CPPLib::PrintVector(std::vector<T> input) {
+  std::cout << "{ ";
+  unsigned int count = 0;
+  for (auto n : input) {
+    count++;
+    std::cout << n;
+    if (count < input.size()) std::cout << ", ";
+  }
+  std::cout << " }" << std::endl;
 }
