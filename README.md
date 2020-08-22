@@ -23,9 +23,6 @@ You can use this template for most of your C++ projects with minimal changes.
 ![Demo picture bottom](https://raw.githubusercontent.com/ourarash/cmake-catch-vsc-template/master/screenshot.gif)
 
 
-## A Video on how to use this repo:
-
-
 ## Prerequisite
 
 ### Installing CMake
