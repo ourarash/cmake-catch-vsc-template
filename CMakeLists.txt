@@ -36,6 +36,11 @@ include_directories(src/lib)
 # Subdirectories to build
 add_subdirectory(src/lib)
 add_subdirectory(src/tests)
+add_subdirectory(src/third_party/abseil-cpp)
+add_subdirectory(src/abseil_demo)
+add_subdirectory(src/abseil_flags)
+
+
 
 # Name of executable
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
