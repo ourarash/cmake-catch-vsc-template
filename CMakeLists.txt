@@ -48,7 +48,6 @@ add_subdirectory(src/tests)
 add_subdirectory(${abseil_SOURCE_DIR})
 add_subdirectory(src/abseil_demo)
 add_subdirectory(src/abseil_flags)
-add_subdirectory(src/move)
 
 
 # Name of executable
