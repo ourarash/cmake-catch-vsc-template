@@ -6,5 +6,4 @@ set(HEADER_FILES
 set(SOURCE_FILES
   cpplib.cpp
 )
-
 add_library(cpplib ${SOURCE_FILES} ${HEADER_FILES})
